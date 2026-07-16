@@ -1,0 +1,90 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Jim Steven Espelico analytics panel</title>
+  <desc id="desc">Single container with stats, languages, and contribution graph for Jim Steven Espelico.</desc>
+  <defs>
+    <linearGradient id="frame" x1="40" y1="40" x2="1160" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A21CAF"/>
+      <stop offset="0.5" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#14F1D9"/>
+    </linearGradient>
+    <linearGradient id="cardbg" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#08101E"/>
+      <stop offset="1" stop-color="#070B14"/>
+    </linearGradient>
+    <style>
+      .mono { font-family: "SFMono-Regular", "Menlo", "Consolas", monospace; }
+      .label { fill: #14F1D9; font-weight: 700; }
+      .value { fill: #E6EDF3; }
+      .muted { fill: #8BA0BE; }
+      .barbg { fill: #172033; }
+      .bar1 { fill: #14F1D9; }
+      .bar2 { fill: #31C6FF; }
+      .bar3 { fill: #A21CAF; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="600" rx="24" fill="#060A13"/>
+  <rect x="12" y="12" width="1176" height="576" rx="20" fill="url(#cardbg)" stroke="url(#frame)" stroke-width="2.5"/>
+
+  <text x="36" y="42" class="mono" fill="#E6EDF3" font-size="16" font-weight="700">jimsteven / analytics</text>
+  <text x="1164" y="42" class="mono muted" font-size="11" text-anchor="end">single container</text>
+
+  <rect x="28" y="64" width="444" height="170" rx="16" fill="#0B1220" stroke="#2E8BFF" stroke-opacity="0.35"/>
+  <text x="44" y="90" class="mono" fill="#7CB2FF" font-size="12" letter-spacing="0.18em">STATS</text>
+  <text x="44" y="120" class="mono value" font-size="13">Profile: jimsteven</text>
+  <text x="44" y="146" class="mono value" font-size="13">Repo: jimsteven/jimsteven</text>
+  <text x="44" y="172" class="mono value" font-size="13">Focus: executive ops + AI</text>
+  <text x="44" y="198" class="mono value" font-size="13">Style: terminal / CRT</text>
+
+  <rect x="728" y="64" width="444" height="170" rx="16" fill="#0B1220" stroke="#2E8BFF" stroke-opacity="0.35"/>
+  <text x="744" y="90" class="mono" fill="#7CB2FF" font-size="12" letter-spacing="0.18em">LANGUAGES</text>
+  <text x="744" y="126" class="mono value" font-size="13">Python</text>
+  <rect x="820" y="116" width="320" height="10" rx="5" class="barbg"/>
+  <rect x="820" y="116" width="250" height="10" rx="5" class="bar1"/>
+  <text x="744" y="154" class="mono value" font-size="13">JavaScript</text>
+  <rect x="820" y="144" width="320" height="10" rx="5" class="barbg"/>
+  <rect x="820" y="144" width="210" height="10" rx="5" class="bar2"/>
+  <text x="744" y="182" class="mono value" font-size="13">SQL</text>
+  <rect x="820" y="172" width="320" height="10" rx="5" class="barbg"/>
+  <rect x="820" y="172" width="140" height="10" rx="5" class="bar3"/>
+
+  <rect x="28" y="254" width="1144" height="318" rx="18" fill="#0B1220" stroke="#2E8BFF" stroke-opacity="0.35"/>
+  <text x="44" y="280" class="mono" fill="#7CB2FF" font-size="12" letter-spacing="0.18em">CONTRIBUTION_GRAPH</text>
+
+  <g stroke="#24324A" stroke-width="1">
+    <line x1="70" y1="336" x2="1130" y2="336"/>
+    <line x1="70" y1="380" x2="1130" y2="380"/>
+    <line x1="70" y1="424" x2="1130" y2="424"/>
+    <line x1="70" y1="468" x2="1130" y2="468"/>
+    <line x1="70" y1="512" x2="1130" y2="512"/>
+  </g>
+
+  <g stroke="#172033" stroke-width="1">
+    <line x1="70" y1="300" x2="70" y2="520"/>
+    <line x1="128" y1="300" x2="128" y2="520"/>
+    <line x1="186" y1="300" x2="186" y2="520"/>
+    <line x1="244" y1="300" x2="244" y2="520"/>
+    <line x1="302" y1="300" x2="302" y2="520"/>
+    <line x1="360" y1="300" x2="360" y2="520"/>
+    <line x1="418" y1="300" x2="418" y2="520"/>
+    <line x1="476" y1="300" x2="476" y2="520"/>
+    <line x1="534" y1="300" x2="534" y2="520"/>
+    <line x1="592" y1="300" x2="592" y2="520"/>
+    <line x1="650" y1="300" x2="650" y2="520"/>
+    <line x1="708" y1="300" x2="708" y2="520"/>
+    <line x1="766" y1="300" x2="766" y2="520"/>
+    <line x1="824" y1="300" x2="824" y2="520"/>
+    <line x1="882" y1="300" x2="882" y2="520"/>
+    <line x1="940" y1="300" x2="940" y2="520"/>
+    <line x1="998" y1="300" x2="998" y2="520"/>
+    <line x1="1056" y1="300" x2="1056" y2="520"/>
+    <line x1="1114" y1="300" x2="1114" y2="520"/>
+  </g>
+
+  <polyline points="70,520 128,520 186,520 244,520 302,520 360,520 418,520 476,520 534,520 592,520 650,520 708,520 766,520 824,520 882,520 940,520 998,520 1056,520 1114,344" fill="none" stroke="#14F1D9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="1114" cy="344" r="4" fill="#31C6FF"/>
+
+  <text x="58" y="548" class="mono muted" font-size="10">0</text>
+  <text x="58" y="340" class="mono muted" font-size="10">1</text>
+  <text x="596" y="574" class="mono muted" font-size="10" text-anchor="middle">days</text>
+</svg>

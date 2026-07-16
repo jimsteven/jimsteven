@@ -7,10 +7,5 @@
 </picture>
 
 <p align="center">
-  <img src="./stats.svg" alt="Jim's GitHub stats" height="170">
-  <img src="./langs.svg" alt="Top languages" height="170">
-</p>
-
-<p align="center">
-  <img src="./graph.svg" alt="Contribution activity graph">
+  <img src="./analytics.svg" alt="Jim's GitHub analytics" width="100%">
 </p>
