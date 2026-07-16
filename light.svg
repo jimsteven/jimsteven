@@ -23,7 +23,7 @@
     </filter>
     <style>
       .mono { font-family: "SFMono-Regular", "Menlo", "Consolas", "Liberation Mono", monospace; }
-      .small { font-size: 12px; letter-spacing: 0.22em; }
+      .small { font-size: 11px; letter-spacing: 0.20em; }
       .label { fill: #0F766E; font-weight: 700; }
       .value { fill: #0F172A; }
       .muted { fill: #5E708A; }
@@ -42,13 +42,13 @@
   <circle cx="42" cy="34" r="5.5" fill="#FF5F56"/>
   <circle cx="62" cy="34" r="5.5" fill="#FFBD2E"/>
   <circle cx="82" cy="34" r="5.5" fill="#27C93F"/>
-  <text x="600" y="40" class="mono muted" font-size="13" text-anchor="middle">jimsteven@ops  ~/profile.sh --live</text>
+  <text x="600" y="40" class="mono muted" font-size="12" text-anchor="middle">jimsteven@ops  ~/profile.sh --live</text>
   <text x="1122" y="40" class="mono accent" font-size="11" text-anchor="end" letter-spacing="0.28em">SCANNING</text>
 
   <rect x="28" y="82" width="484" height="474" rx="18" fill="#FFFFFF" stroke="#7CB2FF" stroke-opacity="0.45"/>
   <text x="44" y="104" class="mono small blue">VISUAL_MAP</text>
 
-  <g class="mono" fill="#4F6BFF" opacity="0.9" font-size="10">
+  <g class="mono" fill="#4F6BFF" opacity="0.9" font-size="9">
     <text x="52" y="134">..::....::...::.....:::.....:::....::..::....::..::..::::..::..</text>
     <text x="52" y="146">..::....::...::..:::::..::..::....::...:::...::..::..::::..::..</text>
     <text x="52" y="158">..::..::....::...::::..::..::::..::....::..::..::..::::..::....</text>
@@ -74,7 +74,7 @@
     <text x="52" y="398">..::....::..::..::..::..::....::....::..::..::..::..::....::..:</text>
   </g>
 
-  <g class="mono" font-size="9.4" fill="#4965D9" opacity="0.92">
+  <g class="mono" font-size="8.6" fill="#4965D9" opacity="0.92">
     <text x="70" y="154">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣶⣦⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
     <text x="70" y="166">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⣿⣿⣿⣿⣿⣿⣷⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
     <text x="70" y="178">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
@@ -89,21 +89,21 @@
     <text x="70" y="286">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠉⠉⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
   </g>
 
-  <text x="54" y="424" class="mono blue" font-size="14" letter-spacing="0.14em">JIM STEVEN ESPELICO</text>
-  <text x="54" y="446" class="mono cyan" font-size="13" letter-spacing="0.18em">EXECUTIVE OPS  •  AI AUTOMATION  •  SYSTEMS</text>
-  <text x="54" y="470" class="mono muted" font-size="12">PYTHON // APPS SCRIPT // SLACK // SQL</text>
-  <text x="54" y="490" class="mono muted" font-size="12">REPORTING // EVENTS // WORKFLOW DESIGN</text>
-  <text x="54" y="510" class="mono muted" font-size="12">CROSS-FUNCTIONAL // EXECUTIVE PARTNERSHIP</text>
+  <text x="54" y="424" class="mono blue" font-size="12" letter-spacing="0.12em">JIM STEVEN ESPELICO</text>
+  <text x="54" y="446" class="mono cyan" font-size="11" letter-spacing="0.16em">EXECUTIVE OPS  •  AI AUTOMATION  •  SYSTEMS</text>
+  <text x="54" y="470" class="mono muted" font-size="10.5">PYTHON // APPS SCRIPT // SLACK // SQL</text>
+  <text x="54" y="490" class="mono muted" font-size="10.5">REPORTING // EVENTS // WORKFLOW DESIGN</text>
+  <text x="54" y="510" class="mono muted" font-size="10.5">CROSS-FUNCTIONAL // EXECUTIVE PARTNERSHIP</text>
 
   <rect x="514" y="82" width="658" height="474" rx="18" fill="#FFFFFF" stroke="#93C5FD" stroke-opacity="0.55"/>
   <text x="530" y="104" class="mono small blue">SYSTEM_INFO</text>
-  <text x="530" y="126" class="mono" font-size="20" fill="#A21CAF" font-weight="700">jimsteven@ops</text>
+  <text x="530" y="126" class="mono" font-size="18" fill="#A21CAF" font-weight="700">jimsteven@ops</text>
 
-  <g class="mono" font-size="17">
+  <g class="mono" font-size="14">
     <text x="548" y="160" class="label">Subject:</text>
     <text x="790" y="160" class="value">Jim Steven Espelico</text>
     <text x="548" y="192" class="label">Role:</text>
-    <text x="790" y="192" class="value">Executive Ops · Business Partner · AI Automation</text>
+    <text x="790" y="192" class="value">Executive Ops · Business Partner · AI</text>
     <text x="548" y="224" class="label">Origin:</text>
     <text x="790" y="224" class="value">Pampanga, Philippines</text>
     <text x="548" y="256" class="label">Education:</text>
@@ -123,7 +123,7 @@
     <line x1="540" y1="308" x2="1140" y2="308"/>
   </g>
 
-  <g class="mono" font-size="17">
+  <g class="mono" font-size="14">
     <text x="548" y="372" class="label">Core.Lang:</text>
     <text x="790" y="372" class="value">Java, Python, C, C++</text>
     <text x="548" y="404" class="label">Core.Frontend:</text>
@@ -136,7 +136,7 @@
     <text x="790" y="500" class="value">Docker, JWT/RBAC, Microservices</text>
   </g>
 
-  <g class="mono" font-size="16">
+  <g class="mono" font-size="13">
     <text x="548" y="546" class="green" font-weight="700">Contact</text>
     <text x="548" y="566" class="blue">Grid.Mail:</text>
     <text x="790" y="566" class="value">jim.espelico@gmail.com</text>
