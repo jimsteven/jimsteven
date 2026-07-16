@@ -1,116 +1,155 @@
 <svg width="1200" height="620" viewBox="0 0 1200 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Jim Steven Espelico terminal style profile card dark theme</title>
-  <desc id="desc">A cyber terminal themed GitHub profile card with Jim Steven Espelico's operations and AI automation profile summary.</desc>
+  <title id="title">Jim Steven Espelico profile terminal card dark theme</title>
+  <desc id="desc">Old-school terminal style profile card with a moving scan line, ASCII art portrait, and system information for Jim Steven Espelico.</desc>
   <defs>
-    <linearGradient id="bg" x1="80" y1="40" x2="1120" y2="580" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#8A2BE2"/>
-      <stop offset="0.5" stop-color="#1D4ED8"/>
+    <linearGradient id="frame" x1="40" y1="40" x2="1160" y2="580" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A21CAF"/>
+      <stop offset="0.5" stop-color="#2563EB"/>
       <stop offset="1" stop-color="#14F1D9"/>
     </linearGradient>
-    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
       <stop stop-color="#0B1020"/>
-      <stop offset="1" stop-color="#0A0F1C"/>
+      <stop offset="1" stop-color="#080C16"/>
     </linearGradient>
-    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#263248" opacity="0.28"/>
+    </pattern>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    <pattern id="lines" width="8" height="8" patternUnits="userSpaceOnUse">
-      <path d="M0 0H8" stroke="#172033" stroke-width="1"/>
-    </pattern>
+    <style>
+      .mono { font-family: "SFMono-Regular", "Menlo", "Consolas", "Liberation Mono", monospace; }
+      .small { font-size: 12px; letter-spacing: 0.22em; }
+      .label { fill: #6EE7E0; font-weight: 700; }
+      .value { fill: #E6EDF3; }
+      .muted { fill: #8BA0BE; }
+      .accent { fill: #F472B6; }
+      .cyan { fill: #14F1D9; }
+      .blue { fill: #7CB2FF; }
+      .green { fill: #78F9A0; }
+      .line { stroke: #8CF7ED; stroke-width: 2; opacity: 0.7; filter: url(#glow); }
+    </style>
   </defs>
 
-  <rect width="1200" height="620" rx="28" fill="#0D1117"/>
-  <rect x="12" y="12" width="1176" height="596" rx="24" fill="url(#scan)" stroke="url(#bg)" stroke-width="2.5"/>
-  <rect x="12" y="12" width="1176" height="596" rx="24" fill="url(#lines)" opacity="0.35"/>
+  <rect width="1200" height="620" rx="26" fill="#060A13"/>
+  <rect x="14" y="14" width="1172" height="592" rx="22" fill="url(#bg)" stroke="url(#frame)" stroke-width="2.5"/>
+  <rect x="14" y="14" width="1172" height="592" rx="22" fill="url(#scanlines)" opacity="0.65"/>
 
-  <circle cx="40" cy="36" r="6" fill="#FF5F56"/>
-  <circle cx="62" cy="36" r="6" fill="#FFBD2E"/>
-  <circle cx="84" cy="36" r="6" fill="#27C93F"/>
-  <text x="600" y="44" fill="#7E8BA3" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" text-anchor="middle">jimsteven@opsos  ~/profile.sh --live</text>
-  <text x="1128" y="44" fill="#FF748C" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" text-anchor="end">SCANNING</text>
+  <circle cx="42" cy="34" r="5.5" fill="#FF5F56"/>
+  <circle cx="62" cy="34" r="5.5" fill="#FFBD2E"/>
+  <circle cx="82" cy="34" r="5.5" fill="#27C93F"/>
+  <text x="600" y="40" class="mono muted" font-size="13" text-anchor="middle">jimsteven@ops  ~/profile.sh --live</text>
+  <text x="1122" y="40" class="mono accent" font-size="11" text-anchor="end" letter-spacing="0.28em">SCANNING</text>
 
-  <rect x="24" y="72" width="482" height="474" rx="18" fill="#0D1324" stroke="#1F9CFF" stroke-opacity="0.5"/>
-  <text x="40" y="92" fill="#5B6B88" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14">VISUAL_MAP</text>
+  <rect x="28" y="82" width="484" height="474" rx="18" fill="#08101E" stroke="#2E8BFF" stroke-opacity="0.35"/>
+  <text x="44" y="104" class="mono small blue">VISUAL_MAP</text>
 
-  <g fill="#5865F2" opacity="0.96" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10">
-    <text x="52" y="126">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⣤⣤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
-    <text x="52" y="138">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣾⣿⣿⣿⣿⣿⣿⣷⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
-    <text x="52" y="150">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
-    <text x="52" y="162">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣿⣿⡿⠋⠀⠀⠀⠀⠀⠀⠙⢿⣿⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
-    <text x="52" y="174">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⡏⠀⠀⢀⣀⣀⣀⡀⠀⠀⠈⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
-    <text x="52" y="186">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⡇⠀⠀⠸⣿⣿⣿⠇⠀⠀⠀⢸⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
-    <text x="52" y="198">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
-    <text x="52" y="210">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣇⠀⠀⢀⣤⣤⣤⡀⠀⠀⠀⣸⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
-    <text x="52" y="222">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⣿⣦⣀⠈⠛⠛⠋⢀⣠⣴⣿⣿⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
-    <text x="52" y="234">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢿⣿⣿⣿⣶⣶⣿⣿⣿⣿⠟⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
-    <text x="52" y="246">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⠿⣿⣿⠿⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
-    <text x="52" y="270" fill="#7AA2FF">          J I M   S T E V E N   E S P E L I C O</text>
-    <text x="52" y="292" fill="#14F1D9">          EXECUTIVE OPS  •  AI AUTOMATION  •  SYSTEMS</text>
-    <text x="52" y="328" fill="#495A78">          PYTHON  //  APPS SCRIPT  //  SLACK  //  SQL</text>
-    <text x="52" y="350" fill="#495A78">          REPORTING  //  EVENTS  //  WORKFLOW DESIGN</text>
-    <text x="52" y="372" fill="#495A78">          CROSS-FUNCTIONAL  //  EXECUTIVE PARTNERSHIP</text>
+  <g class="mono" fill="#6A82FF" opacity="0.95" font-size="10">
+    <text x="52" y="134">..::....::...::.....:::.....:::....::..::....::..::..::::..::..</text>
+    <text x="52" y="146">..::....::...::..:::::..::..::....::...:::...::..::..::::..::..</text>
+    <text x="52" y="158">..::..::....::...::::..::..::::..::....::..::..::..::::..::....</text>
+    <text x="52" y="170">..::..::....::....::..::....::..::....::...::....::..::..::....</text>
+    <text x="52" y="182">..::..::..::..::..::....::..::..::..::....::..::....::....::..</text>
+    <text x="52" y="194">..::..::..::....::....::..::..::..::....::..::..::..::....::...</text>
+    <text x="52" y="206">..::....::..::..::....::..::..::....::..::....::..::..::....::.</text>
+    <text x="52" y="218">..::....::....::..::..::..::....::..::....::..::....::..::..::.</text>
+    <text x="52" y="230">..::....::..::....::..::....::..::..::..::..::....::..::..::....</text>
+    <text x="52" y="242">..::....::..::..::..::..::....::....::..::..::..::..::....::..:</text>
+    <text x="52" y="254">..::....::..::..::..::..::....::....::..::..::..::..::....::..:</text>
+    <text x="52" y="266">..::....::..::..::..::..::....::....::..::..::..::..::....::..:</text>
+    <text x="52" y="278">..::....::..::..::..::..::....::....::..::..::..::..::....::..:</text>
+    <text x="52" y="290">..::....::..::..::..::..::....::....::..::..::..::..::....::..:</text>
+    <text x="52" y="302">..::....::..::..::..::..::....::....::..::..::..::..::....::..:</text>
+    <text x="52" y="314">..::....::..::..::..::..::....::....::..::..::..::..::....::..:</text>
+    <text x="52" y="326">..::....::..::..::..::..::....::....::..::..::..::..::....::..:</text>
+    <text x="52" y="338">..::....::..::..::..::..::....::....::..::..::..::..::....::..:</text>
+    <text x="52" y="350">..::....::..::..::..::..::....::....::..::..::..::..::....::..:</text>
+    <text x="52" y="362">..::....::..::..::..::..::....::....::..::..::..::..::....::..:</text>
+    <text x="52" y="374">..::....::..::..::..::..::....::....::..::..::..::..::....::..:</text>
+    <text x="52" y="386">..::....::..::..::..::..::....::....::..::..::..::..::....::..:</text>
+    <text x="52" y="398">..::....::..::..::..::..::....::....::..::..::..::..::....::..:</text>
   </g>
 
-  <line x1="40" y1="496" x2="496" y2="496" stroke="#83F6E8" stroke-opacity="0.55" stroke-width="2"/>
-
-  <rect x="514" y="56" width="650" height="488" rx="18" fill="#0D1324" stroke="#2F5FFF" stroke-opacity="0.45"/>
-  <text x="528" y="86" fill="#7AA2FF" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14">SYSTEM_INFO</text>
-  <text x="528" y="108" fill="#D735FF" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="22" font-weight="700">jimsteven@opsos</text>
-
-  <g font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="18">
-    <text x="544" y="148" fill="#14F1D9" font-weight="700">Subject:</text>
-    <text x="760" y="148" fill="#E6EDF3">Jim Steven Espelico</text>
-
-    <text x="544" y="182" fill="#14F1D9" font-weight="700">Role:</text>
-    <text x="760" y="182" fill="#E6EDF3">Executive Ops • Business Partner • AI Automation</text>
-
-    <text x="544" y="216" fill="#14F1D9" font-weight="700">Origin:</text>
-    <text x="760" y="216" fill="#E6EDF3">Pampanga, Philippines</text>
-
-    <text x="544" y="250" fill="#14F1D9" font-weight="700">Education:</text>
-    <text x="760" y="250" fill="#E6EDF3">University of the Cordilleras</text>
-
-    <text x="544" y="284" fill="#14F1D9" font-weight="700">Status:</text>
-    <text x="760" y="284" fill="#E6EDF3">Building ops systems • Shipping automation</text>
-
-    <text x="544" y="318" fill="#14F1D9" font-weight="700">Toolchain:</text>
-    <text x="760" y="318" fill="#E6EDF3">Python, Apps Script, Slack, SQL, GitHub, AI</text>
+  <g class="mono" font-size="9.4" fill="#70A7FF" opacity="0.95">
+    <text x="70" y="154">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣶⣦⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
+    <text x="70" y="166">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⣿⣿⣿⣿⣿⣿⣷⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
+    <text x="70" y="178">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
+    <text x="70" y="190">⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⡿⠛⠻⢿⣿⣿⣿⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
+    <text x="70" y="202">⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⠟⠁⠀⠀⠀⠀⠀⠙⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
+    <text x="70" y="214">⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⡏⠀⠀⢀⣠⣤⣤⣄⠀⠈⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
+    <text x="70" y="226">⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⡇⠀⢠⣿⣿⣿⣿⣿⣿⡄⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
+    <text x="70" y="238">⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⡇⠀⠸⣿⣿⣿⣿⣿⣿⠇⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
+    <text x="70" y="250">⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣇⠀⠀⠈⠛⠿⠿⠛⠁⠀⣸⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
+    <text x="70" y="262">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⣿⣦⣀⠀⠀⠀⠀⠀⣀⣴⣿⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
+    <text x="70" y="274">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⠿⣿⣿⣶⣶⣶⣿⣿⠿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
+    <text x="70" y="286">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠉⠉⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
   </g>
 
-  <g stroke="#33415C" stroke-dasharray="4 6" stroke-width="1">
-    <line x1="538" y1="132" x2="1116" y2="132"/>
-    <line x1="538" y1="166" x2="1116" y2="166"/>
-    <line x1="538" y1="200" x2="1116" y2="200"/>
-    <line x1="538" y1="234" x2="1116" y2="234"/>
-    <line x1="538" y1="268" x2="1116" y2="268"/>
-    <line x1="538" y1="302" x2="1116" y2="302"/>
+  <text x="54" y="424" class="mono blue" font-size="14" letter-spacing="0.14em">JIM STEVEN ESPELICO</text>
+  <text x="54" y="446" class="mono cyan" font-size="13" letter-spacing="0.18em">EXECUTIVE OPS  •  AI AUTOMATION  •  SYSTEMS</text>
+  <text x="54" y="470" class="mono muted" font-size="12">PYTHON // APPS SCRIPT // SLACK // SQL</text>
+  <text x="54" y="490" class="mono muted" font-size="12">REPORTING // EVENTS // WORKFLOW DESIGN</text>
+  <text x="54" y="510" class="mono muted" font-size="12">CROSS-FUNCTIONAL // EXECUTIVE PARTNERSHIP</text>
+
+  <rect x="514" y="82" width="658" height="474" rx="18" fill="#08101E" stroke="#2E8BFF" stroke-opacity="0.35"/>
+  <text x="530" y="104" class="mono small blue">SYSTEM_INFO</text>
+  <text x="530" y="126" class="mono" font-size="20" fill="#D735FF" font-weight="700">jimsteven@ops</text>
+
+  <g class="mono" font-size="17">
+    <text x="548" y="160" class="label">Subject:</text>
+    <text x="790" y="160" class="value">Jim Steven Espelico</text>
+    <text x="548" y="192" class="label">Role:</text>
+    <text x="790" y="192" class="value">Executive Ops · Business Partner · AI Automation</text>
+    <text x="548" y="224" class="label">Origin:</text>
+    <text x="790" y="224" class="value">Pampanga, Philippines</text>
+    <text x="548" y="256" class="label">Education:</text>
+    <text x="790" y="256" class="value">University of the Cordilleras</text>
+    <text x="548" y="288" class="label">Status:</text>
+    <text x="790" y="288" class="value">Building • Learning • Shipping</text>
+    <text x="548" y="320" class="label">Toolchain:</text>
+    <text x="790" y="320" class="value">VS Code, Git, Docker, Slack, Python</text>
   </g>
 
-  <g font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="18">
-    <text x="544" y="374" fill="#31C6FF" font-weight="700">Core.Lang:</text>
-    <text x="760" y="374" fill="#E6EDF3">Python, JavaScript, SQL</text>
-
-    <text x="544" y="406" fill="#31C6FF" font-weight="700">Core.Stack:</text>
-    <text x="760" y="406" fill="#E6EDF3">Slack API, Discord API, Google Sheets, AI tools</text>
-
-    <text x="544" y="438" fill="#31C6FF" font-weight="700">Core.Focus:</text>
-    <text x="760" y="438" fill="#E6EDF3">Executive reporting, automations, community systems</text>
-
-    <text x="544" y="470" fill="#31C6FF" font-weight="700">Core.Impact:</text>
-    <text x="760" y="470" fill="#E6EDF3">80 to 100 manual hours saved weekly</text>
+  <g stroke="#334766" stroke-dasharray="4 7" stroke-width="1">
+    <line x1="540" y1="148" x2="1140" y2="148"/>
+    <line x1="540" y1="180" x2="1140" y2="180"/>
+    <line x1="540" y1="212" x2="1140" y2="212"/>
+    <line x1="540" y1="244" x2="1140" y2="244"/>
+    <line x1="540" y1="276" x2="1140" y2="276"/>
+    <line x1="540" y1="308" x2="1140" y2="308"/>
   </g>
 
-  <g font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="18">
-    <text x="544" y="520" fill="#78F9A0" font-weight="700">Contact:</text>
-    <text x="760" y="520" fill="#E6EDF3">jim.espelico@gmail.com</text>
-
-    <text x="544" y="550" fill="#78F9A0" font-weight="700">Grid.GitHub:</text>
-    <text x="760" y="550" fill="#E6EDF3">github.com/jimsteven</text>
-
-    <text x="956" y="550" fill="#14F1D9" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="16">live stats below</text>
+  <g class="mono" font-size="17">
+    <text x="548" y="372" class="label">Core.Lang:</text>
+    <text x="790" y="372" class="value">Java, Python, C, C++</text>
+    <text x="548" y="404" class="label">Core.Frontend:</text>
+    <text x="790" y="404" class="value">React, HTML, CSS, JavaScript</text>
+    <text x="548" y="436" class="label">Core.Backend:</text>
+    <text x="790" y="436" class="value">Node.js, Express.js, REST APIs</text>
+    <text x="548" y="468" class="label">Core.Database:</text>
+    <text x="790" y="468" class="value">PostgreSQL, MongoDB, MySQL</text>
+    <text x="548" y="500" class="label">Core.Infra:</text>
+    <text x="790" y="500" class="value">Docker, JWT/RBAC, Microservices</text>
   </g>
+
+  <g class="mono" font-size="16">
+    <text x="548" y="546" class="green" font-weight="700">Contact</text>
+    <text x="548" y="566" class="blue">Grid.Mail:</text>
+    <text x="790" y="566" class="value">jim.espelico@gmail.com</text>
+  </g>
+
+  <line x1="34" x2="1166" y1="422" y2="422" class="line">
+    <animate attributeName="y1" values="92;556;92" dur="4.5s" repeatCount="indefinite"/>
+    <animate attributeName="y2" values="92;556;92" dur="4.5s" repeatCount="indefinite"/>
+  </line>
+
+  <circle cx="1146" cy="540" r="3.5" fill="#FF6B88">
+    <animate attributeName="cy" values="92;556;92" dur="4.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="1118" y="554" class="mono accent" font-size="11" text-anchor="end" letter-spacing="0.22em">LIVE</text>
+  <text x="1040" y="582" class="mono cyan" font-size="12">See live GitHub stats below in README ↓</text>
 </svg>
