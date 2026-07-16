@@ -1,4 +1,4 @@
-# Hi, I'm Jim Steven Espelico
+# Hi, I'm Jim 
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
