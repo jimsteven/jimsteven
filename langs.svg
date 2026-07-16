@@ -1,0 +1,26 @@
+<svg width="420" height="170" viewBox="0 0 420 170" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Jim Steven Espelico top languages</title>
+  <desc id="desc">Local top languages card for Jim Steven Espelico.</desc>
+  <defs>
+    <linearGradient id="frame" x1="10" y1="10" x2="410" y2="160" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A21CAF"/>
+      <stop offset="0.5" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#14F1D9"/>
+    </linearGradient>
+    <style>
+      .mono { font-family: "SFMono-Regular", "Menlo", "Consolas", monospace; }
+    </style>
+  </defs>
+  <rect width="420" height="170" rx="16" fill="#08101E" stroke="url(#frame)" stroke-width="2"/>
+  <text x="20" y="30" class="mono" fill="#14F1D9" font-size="14" font-weight="700">Top Languages</text>
+  <text x="20" y="64" class="mono" fill="#E6EDF3" font-size="12">Python</text>
+  <rect x="110" y="54" width="270" height="10" rx="5" fill="#172033"/>
+  <rect x="110" y="54" width="210" height="10" rx="5" fill="#14F1D9"/>
+  <text x="20" y="92" class="mono" fill="#E6EDF3" font-size="12">JavaScript</text>
+  <rect x="110" y="82" width="270" height="10" rx="5" fill="#172033"/>
+  <rect x="110" y="82" width="180" height="10" rx="5" fill="#31C6FF"/>
+  <text x="20" y="120" class="mono" fill="#E6EDF3" font-size="12">SQL</text>
+  <rect x="110" y="110" width="270" height="10" rx="5" fill="#172033"/>
+  <rect x="110" y="110" width="120" height="10" rx="5" fill="#A21CAF"/>
+  <text x="20" y="154" class="mono" fill="#8BA0BE" font-size="10">Local fallback chart</text>
+</svg>

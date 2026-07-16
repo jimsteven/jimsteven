@@ -1,0 +1,21 @@
+<svg width="420" height="170" viewBox="0 0 420 170" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Jim Steven Espelico GitHub stats</title>
+  <desc id="desc">Local GitHub stats card for Jim Steven Espelico.</desc>
+  <defs>
+    <linearGradient id="frame" x1="10" y1="10" x2="410" y2="160" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A21CAF"/>
+      <stop offset="0.5" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#14F1D9"/>
+    </linearGradient>
+    <style>
+      .mono { font-family: "SFMono-Regular", "Menlo", "Consolas", monospace; }
+    </style>
+  </defs>
+  <rect width="420" height="170" rx="16" fill="#08101E" stroke="url(#frame)" stroke-width="2"/>
+  <text x="20" y="30" class="mono" fill="#14F1D9" font-size="14" font-weight="700">GitHub Stats</text>
+  <text x="20" y="58" class="mono" fill="#E6EDF3" font-size="12">Profile: jimsteven</text>
+  <text x="20" y="82" class="mono" fill="#E6EDF3" font-size="12">Public repos: 1</text>
+  <text x="20" y="106" class="mono" fill="#E6EDF3" font-size="12">Profile repo: jimsteven/jimsteven</text>
+  <text x="20" y="130" class="mono" fill="#E6EDF3" font-size="12">Theme: terminal / CRT</text>
+  <text x="20" y="154" class="mono" fill="#8BA0BE" font-size="10">Local fallback card to avoid broken remote images</text>
+</svg>
